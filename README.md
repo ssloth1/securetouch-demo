@@ -30,5 +30,12 @@ The web interface acts as a simulation environment for web logins, integrating w
   <img src="/web-preview/Screenshot (64).png" alt="Login" width="200"/>
 </p>
 
+## Android App Preview
+<p align="center">
+  <img src="/android-preview/PIN%20setup.png" alt="PIN Creation" width="200"/>
+  <img src="/android-preview/backup%20code.png" alt="Enter Backup Codes" width="200"/>
+  <img src="/android-preview/login.png" alt="Login" width="200"/>
+</p>
+
 
 
