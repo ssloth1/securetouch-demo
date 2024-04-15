@@ -1,7 +1,7 @@
 # SecureTouch - A Fingerprint Authenticator for Web App Logins
 
 ## Overview
-SecureTouch is a prototype of a fingerprint-based biometric authentication system designed to fortify the security of web app logins. Leveraging Android's support for handling biometrics, SecureTouch offers a user-friendly alternative to conventional OTP and rolling code mobile authenticator applications.
+SecureTouch is a prototype of a fingerprint-based biometric authentication system designed to fortify the security of web app logins. Leveraging Android's support for handling biometrics, SecureTouch offers a user-friendly alternative to conventional OTP and SMS based authentication.
 
 ## Features
 SecureTouch utilizes a multistage setup process for users, designed to ensure maximum security and future ease of use:
