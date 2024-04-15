@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Authenticatorapp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_600</item>
+        <item name="colorPrimaryVariant">@color/purple_500</item>
+        <item name="colorOnPrimary">@color/white</item> <!-- Text on primary background -->
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/blue_400</item>
+        <item name="colorSecondaryVariant">@color/blue_500</item>
+        <item name="colorOnSecondary">@color/white</item> <!-- Text on secondary background -->
+
+        <!-- Accent colors -->
+        <item name="colorAccent">@color/emerald_400</item>
+
+        <!-- Alternative colors for different UI elements or states -->
+        <item name="colorSurface">@color/emerald_400</item>
+        <item name="colorOnSurface">@color/black</item>
+
+        <item name="colorError">@color/pink_400</item>
+        <item name="colorOnError">@color/white</item>
+
+        <!-- Status and Navigation bar colors. -->
+        <item name="android:statusBarColor">@color/purple_600</item>
+        <item name="android:windowBackground">@drawable/background_gradient</item>
+
+        <!-- Ensuring text is white across different components -->
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColorLink">@color/white</item>
+
+        <!-- Poppins Font Fam -->
+        <item name="android:fontFamily">@font/poppins_font_fam</item>
+
+
+    </style>
+</resources>

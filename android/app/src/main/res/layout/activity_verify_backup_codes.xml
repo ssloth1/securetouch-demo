@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/backupCode1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 1"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode4"
+        app:layout_constraintEnd_toStartOf="@+id/backupCode2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/backupCode2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 2"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode5"
+        app:layout_constraintEnd_toStartOf="@+id/backupCode3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backupCode1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/backupCode3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 3"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backupCode2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <EditText
+        android:id="@+id/backupCode4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 4"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode7"
+        app:layout_constraintEnd_toStartOf="@+id/backupCode5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode1" />
+
+    <EditText
+        android:id="@+id/backupCode5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 5"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode8"
+        app:layout_constraintEnd_toStartOf="@+id/backupCode6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backupCode4"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode2" />
+
+    <EditText
+        android:id="@+id/backupCode6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 6"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backupCode5"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode3" />
+
+    <EditText
+        android:id="@+id/backupCode7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 7"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode10"
+        app:layout_constraintEnd_toStartOf="@+id/backupCode8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode4" />
+
+    <EditText
+        android:id="@+id/backupCode8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 8"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode11"
+        app:layout_constraintEnd_toStartOf="@+id/backupCode9"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backupCode7"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode5" />
+
+    <EditText
+        android:id="@+id/backupCode9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:hint="Phrase 9"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/backupCode12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backupCode8"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode6" />
+
+    <EditText
+        android:id="@+id/backupCode10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phrase 10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/backupCode11"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode7" />
+
+    <EditText
+        android:id="@+id/backupCode11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phrase 11"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/backupCode12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backupCode10"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode8" />
+
+    <EditText
+        android:id="@+id/backupCode12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Phrase 12"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/backupCode11"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode9" />
+
+    <Button
+        android:id="@+id/proceedToBioButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Proceed"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backupCode11" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

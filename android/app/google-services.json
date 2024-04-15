@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "138842350769",
+    "project_id": "info-assurance-project",
+    "storage_bucket": "info-assurance-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138842350769:android:2c1bc62dcef9817c34ae90",
+        "android_client_info": {
+          "package_name": "edu.northeastern.authenticator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrx9pjIEtnYdD9-x7qqaDQJ3hnQQNF47M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
