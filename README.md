@@ -18,20 +18,17 @@ Each time a user logs into the web application, they are prompted to authenticat
 ## Web Application
 The web interface acts as a simulation environment for web logins, integrating with the Android app via Firebase.
 
-## Web Interface Preview
-### Welcome Screen
-![Welcome Screen](/web-preview/Screenshot%20(58).png)
-
-### Registration Form
-![Registration](/web-preview/Screenshot%20(60).png)
-
-### Backup Codes Display
-![Backup Codes](/web-preview/Screenshot%20(63).png)
-
-### Login Screen
-![Login](/web-preview/Screenshot%20(64).png)
-
-
 ## Getting Started
 - [SecureTouch Web Portal](https://jbebarski.com/)
 - [SecureTouch Android Application](https://github.com/ssloth1/securetouch-demo/blob/main/android/app/release/app-release.apk)
+
+## Web Interface Preview
+<p align="center">
+  <img src="/web-preview/Screenshot (58).png" alt="Welcome Screen" width="200"/>
+  <img src="/web-preview/Screenshot (60).png" alt="Registration" width="200"/>
+  <img src="/web-preview/Screenshot (63).png" alt="Backup Codes" width="200"/>
+  <img src="/web-preview/Screenshot (64).png" alt="Login" width="200"/>
+</p>
+
+
+
