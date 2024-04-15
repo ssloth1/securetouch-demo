@@ -21,3 +21,14 @@ The web interface acts as a simulation environment for web logins, integrating w
 ## Getting Started
 - [SecureTouch Web Portal](https://jbebarski.com/)
 - [SecureTouch Android Application](https://github.com/ssloth1/securetouch-demo/blob/main/android/app/release/app-release.apk)
+
+## Web Interface Preview
+<p align="center">
+  <img src="/web-preview/Screenshot (58).png" alt="Welcome Screen" width="200"/>
+  <img src="/web-preview/Screenshot (60).png" alt="Registration" width="200"/>
+  <img src="/web-preview/Screenshot (63).png" alt="Backup Codes" width="200"/>
+  <img src="/web-preview/Screenshot (64).png" alt="Login" width="200"/>
+</p>
+
+
+
